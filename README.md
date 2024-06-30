@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @BennyGaming635
 - 👀 I’m interested in coding and developing things.
-- 🌱 I’m currently learning how to use GitHub and make games.
+- 🌱 I’m currently working on a game with others on a penguin going arround places. (Look at BennyGaming635/pew-pew-penguino)!
 - 💞️ I’m looking to collaborate on **ANYTHING!**
 - 📫 How to reach me - benjamingraetz@icloud.com
 - 😄 Pronouns: He/Him/His
