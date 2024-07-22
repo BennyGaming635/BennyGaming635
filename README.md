@@ -1,3 +1,4 @@
+# About Me
 - 👋 Hi, I’m @BennyGaming635
 - 👀 I’m interested in coding and developing things.
 - 🌱 I’m currently working on a game with others on a penguin going arround places. (Look at BennyGaming635/pew-pew-penguino)!
@@ -5,6 +6,9 @@
 - 📫 How to reach me - benjamingraetz@icloud.com
 - 😄 Pronouns: He/Him/His
 - ⚡ Fun fact: I'm actually really fascinated by GitHub and by most massive coding projects.
+***
+# My GitHub Stats
+[![BennyGaming635s GitHub Stats](https://github-readme-stats.vercel.app/api?username=BennyGaming635)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 BennyGaming635/BennyGaming635 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
