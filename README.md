@@ -10,6 +10,10 @@
 # My GitHub Stats
 [![BennyGaming635s GitHub Stats](https://github-readme-stats.vercel.app/api?username=BennyGaming635)](https://github.com/anuraghazra/github-readme-stats&show_icons=true&theme=dark)
 
+***
+
+[![An image of @bennygaming635's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/bennygaming635)](https://holopin.io/@bennygaming635)
+
 <!---
 BennyGaming635/BennyGaming635 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
