@@ -21,7 +21,9 @@ export default function Home() {
 
   useEffect(() => {
     const bootTimer = setTimeout(() => {
-      setBooting(false)
+      setTimeout(() => {
+        setBooting(false)
+      }, 500)
     }, 3000)
 
     return () => clearTimeout(bootTimer)
