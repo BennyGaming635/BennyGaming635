@@ -17,6 +17,15 @@ export default function Home() {
   const [aboutOpen, setAboutOpen] = useState(false)
   const [projectsOpen, setProjectsOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
+  const [booting, setBooting] = useState(true)
+
+  useEffect(() => {
+    const bootTimer = setTimeout(() => {
+      setBooting(false)
+    }, 3000)
+
+    return () => clearTimeout(bootTimer)
+  }, [])
 
   useEffect(() => {
     const updateClock = () => {
