@@ -44,6 +44,34 @@ export default function Home() {
     return () => clearInterval(interval)
   }, [])
 
+  if (booting) {
+    return (
+      <main className="lex h-screen w-screen flex-col items-center justify-center bg-black text-white">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+          className="flex flex-col items-center gap-6"
+          >
+            <div className="text-6xl font-bold tracking-widest">
+              benOS
+            </div>
+            <div className="h-2 w-72 overflow-hidden rounded-full bg-white/20">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: '100%' }}
+                transition={{ duration: 3 }}
+                className="h-full bg-blue-500"
+              />
+            </div>
+            <p className="text-sm text-netural-400">
+              Starting benOS...
+            </p>
+          </motion.div>
+      </main>
+    )
+  }
+
   return (
     <main className="h-screen w-screen overflow-hidden bg-[url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center text-white select-none">
       <div className="absolute left-4 top-4 flex flex-col gap-6">
