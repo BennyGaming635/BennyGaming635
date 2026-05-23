@@ -40,7 +40,7 @@ export default function Home() {
 
     return () => window.removeEventListener('resize', check)
   }, [])
-  
+
   useEffect(() => {
     const updateClock = () => {
       const now = new Date()
@@ -57,6 +57,20 @@ export default function Home() {
 
     return () => clearInterval(interval)
   }, [])
+
+  if (isMobile) {
+    return (
+      <main className="flex h-screen w-screen flex-col items-center justify-center bg-black text-white text-center">
+        <div className="space-y-4">
+          <h1 className="text-2xl font-bold">Desktop Only</h1>
+          <p className="text-neutral-400 text-l">
+            Please open this site on a desktop or laptop to experience this site.
+            Thank you.
+          </p>
+        </div>
+      </main>
+    )
+  }
 
   if (booting) {
     return (
