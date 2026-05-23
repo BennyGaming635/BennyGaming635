@@ -130,7 +130,7 @@ export default function Home() {
           <div className="space-y-3 text-sm text-black">
             <h2 className="text-2xl font-bold">Ben</h2>
             <p>
-              Developer from Adelaide building apps, transport concepts,
+              Youth Developer from Adelaide building apps, transport concepts,
               websites, and creative projects.
             </p>
 
@@ -166,6 +166,16 @@ export default function Home() {
             <ProjectCard
               name="Wavey"
               description="Internal messaging and social platform."
+            />
+
+            <ProjectCard
+              name="Clean Today"
+              description="Platform to connect communities and governments for local cleanups."
+            />
+
+            <ProjectCard
+              name="DeskFM"
+              description="A simple python-based app to play and organise your music library."
             />
           </div>
         </Window>
