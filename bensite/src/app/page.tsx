@@ -17,4 +17,21 @@ export default function Home() {
   const [aboutOpen, setAboutOpen] = useState(false)
   const [projectsOpen, setProjectsOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
+
+  useEffect(() => {
+    const updateClock = () => {
+      const now = new Date()
+      setTime(
+        now.toLocaleTimeString([], {
+          hour: '2-digit',
+          minute: '2-digit',
+        })
+      )
+    }
+
+    updateClock()
+    const interval = setInterval(updateClock, 1000)
+
+    return () => clearInterval(interval)
+  }, [])
 }
