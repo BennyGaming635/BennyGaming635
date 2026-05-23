@@ -112,7 +112,7 @@ export default function Home() {
           onClose={() => setTerminalOpen(false)}
         >
           <div className="h-full rounded bg-black p-4 font-mono text-green-400">
-            <p>FakeOS Terminal v1.0</p>
+            <p>Terminal</p>
             <br />
             <p>&gt; help</p>
             <p>about - Open about info</p>
@@ -121,7 +121,7 @@ export default function Home() {
             <br />
             <p>&gt; github</p>
             <a
-              href="https://github.com"
+              href="https://github.com/bennygaming635"
               target="_blank"
               className="text-blue-400 underline"
             >
