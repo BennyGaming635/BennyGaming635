@@ -18,6 +18,7 @@ export default function Home() {
   const [projectsOpen, setProjectsOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
   const [booting, setBooting] = useState(true)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     const bootTimer = setTimeout(() => {
@@ -29,6 +30,17 @@ export default function Home() {
     return () => clearTimeout(bootTimer)
   }, [])
 
+  useEffect(() => {
+    const check = () => {
+      setIsMobile(window.innerWidth < 768)
+     } 
+
+    check()
+    window.addEventListener('resize', check)
+
+    return () => window.removeEventListener('resize', check)
+  }, [])
+  
   useEffect(() => {
     const updateClock = () => {
       const now = new Date()
